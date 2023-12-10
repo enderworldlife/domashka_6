@@ -1,5 +1,4 @@
 ﻿
-
 void PrintNewChar(char[] newchar){
     for (int i = 0; i < newchar.Length; i++){
         Console.Write(newchar[i] + " ");
@@ -41,6 +40,8 @@ bool IsPalindrom (string astring, string areversedstring){
     }
     return isPalindrom;    
 }
+
+Console.WriteLine();
 char[] newgottenchar = FromAStringToNewChar(astring1);
 Console.Write("Слово: ");
 PrintNewChar(newgottenchar);
